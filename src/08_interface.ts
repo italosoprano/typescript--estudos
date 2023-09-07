@@ -21,3 +21,13 @@ function multipleParams(nums: mathFunctionParams) {
 }
 
 console.log(multipleParams({n1: 23, n2: 54})) //1242
+
+//passando a interface como uma constante para ser usada em uma função
+
+const somaNumbers: mathFunctionParams = {
+    n1: 5,
+    n2: 5
+}
+
+//função de multiplicação recebendo como parametros a variavel que recebeu a interface.
+console.log(multipleParams(somaNumbers)); //25
