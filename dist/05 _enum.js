@@ -1,9 +1,4 @@
 "use strict";
-/*
-enum sao objetos que auxiliam na enumeração de um conjunto de objetos que existem e sao utilizados de maneira corriqueira.
-
-enum Nome {objeto chave = valor}
-*/
 var Size;
 (function (Size) {
     Size["G"] = "Grande";
@@ -15,4 +10,4 @@ const camisa = {
     cor: 'Vermelha',
     size: Size.G
 };
-console.log(camisa); //{tipo: Camisa, Cor: Vermelha, Size: Grande}
+console.log(camisa);
